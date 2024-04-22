@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: #fff;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 85%;
+  width: 100%;
+  background: rgb(44, 27, 27);
+  display: flex;
+  padding: 5vw 10vw;
+}
+
+#left {
+  height: 100%;
+  width: 55%;
+  pointer-events: none;
+  background-image: url(https://media5.bollywoodhungama.in/wp-content/uploads/2024/01/Teri-Baaton-Mein-Aisa-Uljha-Jiya-2-322x402.jpg);
+  background-position: center;
+  background-size: top;
+  background-repeat: no-repeat;
+}
+#right {
+  height: 100%;
+  width: 55%;
+
+  padding: 0 3vw;
+}
+#right h3 {
+  font-size: 28px;
+}
+#all-songs {
+  height: 85%;
+  margin-top: 30px;
+}
+.song-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgb(107, 104, 104);
+  padding: 13px 13px;
+}
+.song-card .part1 {
+  display: flex;
+  align-items: center;
+}
+.song-card:nth-last-child(1) {
+  border-bottom: 1px solid rgb(107, 104, 104);
+}
+.song-card img {
+  height: 55px;
+  width: 55px;
+  margin-right: 20px;
+}
+.song-card:hover {
+  background-color: rgb(40, 15, 15);
+}
+.song-card h2 {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.song-card h6 {
+  font-size: 14px;
+  font-weight: 500;
+}
+#player {
+  height: 15%;
+  width: 100%;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+#player h3 {
+  background: rgb(57, 54, 54);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+#player h3 i {
+  font-size: 20px;
+}
+
+#player h3:active {
+  scale: 0.9;
+}
